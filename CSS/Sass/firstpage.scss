@@ -1,0 +1,380 @@
+﻿.products-list .product-description {
+    white-space: normal;
+    display: -webkit-box;
+    line-height: 1.4em;
+    max-height: 48px;
+    -webkit-line-clamp: 2;
+}
+
+.textWrap {
+    font-size: 1.2em;
+    line-height: 10px;
+}
+
+.boardImg {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 350px;
+}
+
+.boardImg img {
+    max-width: 400px;
+    max-height: 350px;
+    margin-top: 10px;
+}
+
+.text-info {
+    color: #0e7696;
+}
+
+.fa-edit, .fa-file-text-o, .fa-book, .fa-table, .fa-folder {
+    color: #0e7696;
+}
+
+.page-list a.detail-disclosure {
+    padding-right: 48px;
+}
+
+.header-button button, .box-header {
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+.header-button-left {
+    left: 0;
+}
+
+.header-button-right {
+    right: 0;
+}
+
+.header-button {
+    position: absolute;
+    top: 0;
+    padding: 7px 5px;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+.header-button-icon button {
+    min-width: 0;
+    padding: 0 8px;
+}
+
+.header-button button {
+    pointer-events: none;
+    min-width: 40px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #f60;
+    padding: 0 4px;
+    text-decoration: none;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon-refresh {
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    background: url(/Img/refresh-icon.svg) no-repeat;
+    background-size: 14px 18px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.icon-search {
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    background: url(/Img/search.svg) no-repeat;
+    background-size: 20px 24px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.hidden {
+    display:none;
+}
+.page-list a:visited {
+    color: #888;
+}
+
+.page-list li > a * {
+    pointer-events: none;
+}
+
+.page-list li > a .story b {
+    font-weight: 400;
+    color: #000;
+}
+
+.page-list li > a .metadata {
+    display: block;
+    font-size: 14px;
+    color: #666d74;
+}
+
+.link-text {
+    padding: 3px 0px;
+    color: #003d80;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.page-list a {
+    line-height: 1.2em;
+    color: #000;
+    display: block;
+    text-decoration: none;
+}
+
+.product-list-in-box > .item {
+    position: relative;
+}
+
+.page-list li > a .number {
+    font-weight: lighter;
+    text-align: right;
+    width: 3ex;
+    color: #666d74;
+    position: absolute;
+    left: 5px;
+    font-size: 1.5em;
+}
+
+.page-list li > a .story {
+    line-height: 1.2em;
+    margin-left: 5ex;
+    padding-left: 5px;
+    font-size: 1.2em;
+}
+
+.header-button-left:hover, .page-list li > a:hover {
+    background-color: #F6F6EF;
+}
+
+.page-list li > span.detail-disclosure-button {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0px;
+    padding: 0;
+    z-index: 2;
+    width: 48px;
+    height: 100%;
+}
+
+#sb {
+    width:25%;
+    position: absolute;
+    right: 50px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #FF6600;
+}
+
+#sb[type='text'] {
+    text-align: right;
+}
+
+#sb[type='text']:focus {
+    text-align: center;
+}
+#pageManager {
+    font-size: 1.5em;
+    font-weight: 500;
+    float: right;
+    margin-right: 0.5em;
+}
+
+#page-msg {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(/Img/comments-icon.svg) no-repeat;
+    background-size: 30px 30px;
+    margin-top: 10px;
+    color: #003d80;
+}
+
+.bubble-icon {
+    background-color: rgb(255,240,230);
+    color: #ff6600;
+}
+
+.bubble-icon {
+    margin-top: 0.5em;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 2px 6px;
+    min-width: 35px;
+    line-height: 1.45;
+    font-style: normal;
+}
+
+.treeview-menu li a small, .sidebar-menu li a small {
+    display: none;
+}
+
+.rmpad {
+    padding: 0px;
+}
+
+#moretn {
+    display: block;
+}
+
+.skin-blue .sidebar-menu > li > a {
+    font-size: 1.1em;
+}
+
+.story {
+    height: 64px; /*this is set to the height of the how much text you want to show based on the font size, line height, etc*/
+    overflow: hidden;
+}
+
+.pageImg {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pageImg img {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+}
+.pageSelect {
+    float: left;
+    & select {
+        width:auto;
+        display:inline;
+    }
+}
+
+.skin-blue .sidebar-menu > li > a > span {
+    white-space: normal;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.boxPage {
+    position: relative;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 60%;
+    background: #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.remaining-content span {
+    display: none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right:4px;
+}
+.pageCover {
+    background: url("/Img/R5101.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+@media (max-width: 420px) {
+    #sb {
+        width: 18%;
+    }
+    .dropdown {
+        margin-right: 2px;
+    }
+    .btn {
+        padding: 4px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .boardImg img {
+        height: 100%;
+        object-fit: contain;
+        width: 100%;
+    }
+    .pageCover {
+        height:4.1em;
+    }
+    .nav>li>a { 
+    padding: 10px 13px;
+    }
+
+}
+@media (max-width: 1024px) {
+    .treeview-menu li a small, .sidebar-menu li a small {
+        display: block;
+    }
+    .boxPage {
+        width: 100%;
+    }
+    .pageImg img {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+
+
